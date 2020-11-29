@@ -1,4 +1,4 @@
-# JobCoinMixerJobCoinMixer is a RESTful Web Servicethat that accept HTTP POST requests at http://localhost:8080/mixer/api/mix
+# JobCoinMixerJobCoinMixer is a RESTful Web Service that accept HTTP POST requests at http://localhost:8080/mixer/api/mix
 It expects the following JSON in the body:
 {"withdrawalAddresses":["<addr1>","<addr1>","<addr1>"]}
 where <addrx> is a place holder for the actual withdrawal address
