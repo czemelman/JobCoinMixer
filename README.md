@@ -12,6 +12,9 @@ sample success response JSON :
 }
 
 Deposit adress would remain on the watch list until funds are received or 24 hours passed since request was posted
+Once funds received to the deposit address they would be automatically swept into mixer house accounts.
+5% fee would be deducted and thre remainder would be broken into random small amounts that would be deposited into withdrawal addresses within pre configured
+maximum delay time.
 
 Prerequisites:
 Java 11 or higher.
